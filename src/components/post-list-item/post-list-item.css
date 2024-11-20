@@ -1,0 +1,49 @@
+/* Main container for the list item */
+.app-list-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;  
+}
+
+/* Crossed-out text style */
+.crossed-out {
+    text-decoration: line-through;
+}
+
+
+.btn-sm {
+    background: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.btn-sm i {
+    font-size: 18px;
+    color: #333;
+}
+
+
+.btn-sm:hover i {
+    color: #007bff;
+}
+
+/* Star button */
+.btn-star i {
+    color: gold;
+}
+
+/* Trash button */
+.btn-trash i {
+    color: gray;
+}
+
+/* Heart button */
+.btn-heart i {
+    color: #f00;
+}
+
+/* Check button */
+.btn-check i {
+    color: #28a745;
+}
